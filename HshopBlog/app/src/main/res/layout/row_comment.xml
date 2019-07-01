@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="#ffff"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:background="@drawable/circle_image"
+        android:id="@+id/comment_userImg"
+        android:layout_width="50dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/userphoto" />
+
+    <TextView
+        android:id="@+id/comment_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:text="Bon Dev"
+        android:textColor="#9696"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/comment_userImg"
+        app:layout_constraintStart_toEndOf="@id/comment_userImg"
+        app:layout_constraintTop_toTopOf="@+id/comment_userImg" />
+
+    <TextView
+        android:id="@+id/content_comment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Comment"
+        android:textColor="#969695"
+        android:textSize="12sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/content_date"
+        app:layout_constraintStart_toEndOf="@+id/comment_username"
+        app:layout_constraintTop_toTopOf="@+id/comment_username"
+        app:layout_constraintVertical_bias="0.25" />
+
+    <TextView
+        android:id="@+id/content_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:text="15:40"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/comment_username"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/comment_username" />
+</android.support.constraint.ConstraintLayout>

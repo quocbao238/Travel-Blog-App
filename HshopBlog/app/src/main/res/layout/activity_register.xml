@@ -39,7 +39,7 @@
 
         <com.rengwuxian.materialedittext.MaterialEditText
             android:id="@+id/edt_newName"
-            android:text="Izanami"
+            android:text=""
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
@@ -54,7 +54,7 @@
 
         <com.rengwuxian.materialedittext.MaterialEditText
             android:id="@+id/edt_newEmail"
-            android:text="baobondemo@gmail.com"
+            android:text=""
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Input your Email"
@@ -68,7 +68,7 @@
 
         <com.rengwuxian.materialedittext.MaterialEditText
             android:id="@+id/edt_newpassword"
-            android:text="123456789"
+            android:text=""
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -83,7 +83,7 @@
 
         <com.rengwuxian.materialedittext.MaterialEditText
             android:id="@+id/edt_newconfpassword"
-            android:text="123456789"
+            android:text=""
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"

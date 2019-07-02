@@ -36,7 +36,7 @@
 
         <com.rengwuxian.materialedittext.MaterialEditText
             android:id="@+id/edt_email"
-            android:text="baobon@gmail.com"
+            android:text=""
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Input your Email"
@@ -54,7 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:hint="Input your Password"
-            android:text="123456789"
+            android:text=""
             android:inputType="numberPassword"
             android:textColor="@android:color/white"
             android:textColorHint="@android:color/black"

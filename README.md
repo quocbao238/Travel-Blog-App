@@ -10,67 +10,30 @@ Aws Rh Youtube channel.
 #### Prequisites
 -   Firebase Authentication
 -   Firebase Realtime-database
+-   Firebase Storage 
 -   Material EditText   ```implementation 'com.rengwuxian.materialedittext:library:2.1.4'```
 -   Circle Image View       ```implementation 'de.hdodenhof:circleimageview:3.0.0'```
 -   RecycleView             ```implementation 'com.android.support:cardview-v7:28.0.0''```
 -   CardView                ```implementation 'com.android.support:cardview-v7:28.0.0''```
--   YouTubeAndroidPlayerApi
+-   Glide      ```implementation 'com.github.bumptech.glide:glide:4.9.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'```
+-   NavigationView
+-   Fragments
 
 #### Attractions
 -   Beautiful Splashscreen
 -   Complete function login and signup
--   The user is stored in the SQ Lite Database & Firebase Database
--   Search for food  suggestions
--   Users can call phone to order a party or order food
--   Order status message
+-   The user is stored in the Firebase Authentication
+-   Image is stored in Firebase Storage
+-   Post/comment is stored in Firebase RealtimeDatabase
+-   Users can comment on other users posts
+-   Users can post travel experiences themselves to everyone
 -   And many more...
 
 #### Android Version
 7.0 or up
 
 #### Contact
-If you have any copyright issues please contact us via email: baobondev@gmail.com
-
+If you have any copyright issues please contact us via Email: baobondev@gmail.com
 ---
-
-# Manager Popeyes
-* Manager Popeyes App help managetment oder of Popeyes store
-### Feature
-* This app is built with the help of video tutorials. You can find them on EDMT Youtube channel.
-* This source code support to do project in schools,using images taken from Popeyes.vn
-* I have developed this app all by myself and I would be happy to share the APK of the app for testing purposes.
-![Android App Oder Popeyes1](https://github.com/baobon/AndroidApp_Oder_Popeyes/blob/master/readme/screenshot3.jpg?raw=true)
-![Android App Oder Popeyes2](https://github.com/baobon/AndroidApp_Oder_Popeyes/blob/master/readme/screenshot4.jpg?raw=true)
-
-#### Prequisites
--   SQLite database
--   Firebase Realtime-database
--   Material EditText
--   CardView
--   RecycleView
--   Firebase-storage
--   Spinner
--   Google Map API
--   Retrofit
--   Volley
--   Picasso
-
-#### Attractions
--   Beautiful Splashscreen
--   Complete function login and signup
--   The user is stored in the SQ Lite Database & Firebase Database
--   Order status message
--   Add/Edit/Delete new Cart
--   Add/Edit/Delete new Food
--   Tracking Oder 
--   And many more...
-
-### Android Version
-7.0 or up
-
-#### Contact
-If you have any copyright issues please contact us via email: baobondev@gmail.com
-
----
-
 

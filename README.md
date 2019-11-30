@@ -12,11 +12,11 @@ Aws Rh Youtube channel.
 -   Firebase Realtime-database
 -   Firebase Storage 
 -   Material EditText   ```implementation 'com.rengwuxian.materialedittext:library:2.1.4'```
--   Circle Image View       ```implementation 'de.hdodenhof:circleimageview:3.0.0'```
--   RecycleView             ```implementation 'com.android.support:cardview-v7:28.0.0''```
--   CardView                ```implementation 'com.android.support:cardview-v7:28.0.0''```
--   Glide      ```implementation 'com.github.bumptech.glide:glide:4.9.0'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'```
+-   Circle Image View   ```implementation 'de.hdodenhof:circleimageview:3.0.0'```
+-   RecycleView         ```implementation 'com.android.support:cardview-v7:28.0.0''```
+-   CardView            ```implementation 'com.android.support:cardview-v7:28.0.0''```
+-   Glide      		```implementation 'com.github.bumptech.glide:glide:4.9.0'```
+-   Glide complier 	``` annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'```
 -   NavigationView
 -   Fragments
 
